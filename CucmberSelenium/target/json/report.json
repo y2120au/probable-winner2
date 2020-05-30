@@ -1,0 +1,77 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-05-23T12:52:56.790Z",
+        "line": 4,
+        "name": "check login is successfully with valid creduntials",
+        "description": "",
+        "id": "fature-to-test-login;check-login-is-successfully-with-valid-creduntials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 202000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter username and password",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_enter_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on login button",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 203000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is navigate to home page",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_is_navigate_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeReg"
+          }
+        ]
+      }
+    ],
+    "name": "fature to test Login",
+    "description": "  I want to use this template for my feature file",
+    "id": "fature-to-test-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login.feature",
+    "tags": []
+  }
+]
